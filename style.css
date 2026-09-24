@@ -107,6 +107,12 @@ section h2 {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.12);
 }
 
 .card h3 {
