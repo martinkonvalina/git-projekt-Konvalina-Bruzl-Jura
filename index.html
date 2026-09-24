@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Střední průmyslová škola Třebíč</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Hlavička s logem a navigací -->
+    <header>
+        <div class="logo">
+            <h1>SPŠ Třebíč</h1>
+        </div>
+        <nav>
+            <a href="#o-nas">O nás</a>
+            <a href="#obory">Obory</a>
+            <a href="#kontakt">Kontakt</a>
+        </nav>
+    </header>
+
+    <!-- Hlavní uvítací sekce -->
+    <section class="hero">
+        <h2>Vítejte na SPŠ Třebíč</h2>
+        <p>Kvalitní technické vzdělání s dlouholetou tradicí.</p>
+        <a href="#obory" class="btn">Nabídka oborů</a>
+    </section>
+
+    <div class="container">
+        
+        <!-- Sekce O nás -->
+        <section id="o-nas">
+            <h2>O škole</h2>
+            <p>
+                Střední průmyslová škola Třebíč je moderní škola zaměřená na technické obory.
+                Připravujeme studenty na úspěšnou kariéru v praxi i pro další studium na vysokých školách.
+                Disponujeme kvalitně vybavenými dílnami, laboratorními učebnami a moderní výpočetní technikou.
+            </p>
+        </section>
+
+        <!-- Sekce Nabízené obory -->
+        <section id="obory">
+            <h2>Studijní obory</h2>
+            <div class="obory-grid">
+                
+                <div class="card">
+                    <h3>Informační technologie</h3>
+                    <p>Programování, počítačové sítě, webové aplikace a databáze.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Elektrotechnika</h3>
+                    <p>Elektronika, automatizace, silnoproudá a slaboproudá technika.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Strojírenství</h3>
+                    <p>Konstruování v CAD programech, CNC stroje a mechanika.</p>
+                </div>
+
+                <div class="card">
+                    <h3>Průmyslová ekologie</h3>
+                    <p>Ochrana životního prostředí, monitoring a ekologické technologie.</p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Sekce Kontakt -->
+        <section id="kontakt">
+            <h2>Kontaktujte nás</h2>
+            <div class="kontakt-flex">
+                
+                <div class="kontakt-info">
+                    <h3>Adresa a kontakty</h3>
+                    <p><strong>SPŠ Třebíč</strong></p>
+                    <p>Manželů Curieových 734</p>
+                    <p>674 01 Třebíč</p>
+                    <br>
+                    <p><strong>E-mail:</strong> info@spstrebic.cz</p>
+                    <p><strong>Telefon:</strong> +420 568 834 011</p>
+                </div>
+
+                <form id="contact-form">
+                    <label for="name">Jméno a příjmení:</label>
+                    <input type="text" id="name" name="name" required placeholder="Jan Novák">
+
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required placeholder="jan@example.cz">
+
+                    <label for="message">Zpráva:</label>
+                    <textarea id="message" name="message" rows="4" required placeholder="Vaše dotazy..."></textarea>
+
+                    <button type="submit">Odeslat zprávu</button>
+                </form>
+
+            </div>
+        </section>
+
+    </div>
+
+    <!-- Patička webu -->
+    <footer>
+        <p>&copy; 2026 Střední průmyslová škola Třebíč</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
