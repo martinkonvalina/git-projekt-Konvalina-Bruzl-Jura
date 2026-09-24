@@ -146,6 +146,11 @@ form input, form textarea {
     border-radius: 4px;
 }
 
+form input:focus, form textarea:focus {
+    outline: 2px solid #ff9900;
+    border-color: #003366;
+}
+
 form button {
     margin-top: 15px;
     background-color: #003366;
