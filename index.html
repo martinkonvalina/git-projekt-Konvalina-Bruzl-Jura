@@ -11,9 +11,10 @@
     <!-- Hlavička s logem a navigací -->
     <header>
         <div class="logo">
+            <img src="../assets/logo.png" alt="SPŠ Třebíč logo" class="logo-img">
             <h1>SPŠ Třebíč</h1>
         </div>
-        <nav>
+        <nav aria-label="Hlavní navigace">
             <a href="#o-nas">O nás</a>
             <a href="#obory">Obory</a>
             <a href="#kontakt">Kontakt</a>
@@ -27,7 +28,7 @@
         <a href="#obory" class="btn">Nabídka oborů</a>
     </section>
 
-    <div class="container">
+    <main class="container">
         
         <!-- Sekce O nás -->
         <section id="o-nas">
@@ -44,25 +45,25 @@
             <h2>Studijní obory</h2>
             <div class="obory-grid">
                 
-                <div class="card">
-                    <h3>Informační technologie</h3>
+                <article class="card">
+                    <h3>💻 Informační technologie</h3>
                     <p>Programování, počítačové sítě, webové aplikace a databáze.</p>
-                </div>
+                </article>
 
-                <div class="card">
-                    <h3>Elektrotechnika</h3>
+                <article class="card">
+                    <h3>⚡ Elektrotechnika</h3>
                     <p>Elektronika, automatizace, silnoproudá a slaboproudá technika.</p>
-                </div>
+                </article>
 
-                <div class="card">
-                    <h3>Strojírenství</h3>
+                <article class="card">
+                    <h3>⚙️ Strojírenství</h3>
                     <p>Konstruování v CAD programech, CNC stroje a mechanika.</p>
-                </div>
+                </article>
 
-                <div class="card">
-                    <h3>Průmyslová ekologie</h3>
+                <article class="card">
+                    <h3>🌱 Průmyslová ekologie</h3>
                     <p>Ochrana životního prostředí, monitoring a ekologické technologie.</p>
-                </div>
+                </article>
 
             </div>
         </section>
@@ -78,27 +79,27 @@
                     <p>Manželů Curieových 734</p>
                     <p>674 01 Třebíč</p>
                     <br>
-                    <p><strong>E-mail:</strong> info@spstrebic.cz</p>
-                    <p><strong>Telefon:</strong> +420 568 834 011</p>
+                    <p><strong>E-mail:</strong> <a href="mailto:info@spstrebic.cz">info@spstrebic.cz</a></p>
+                    <p><strong>Telefon:</strong> <a href="tel:+420568834011">+420 568 834 011</a></p>
                 </div>
 
                 <form id="contact-form">
                     <label for="name">Jméno a příjmení:</label>
-                    <input type="text" id="name" name="name" required placeholder="Jan Novák">
+                    <input type="text" id="name" name="name" required placeholder="Jan Novák" autocomplete="name">
 
                     <label for="email">E-mail:</label>
-                    <input type="email" id="email" name="email" required placeholder="jan@example.cz">
+                    <input type="email" id="email" name="email" required placeholder="jan@example.cz" autocomplete="email">
 
                     <label for="message">Zpráva:</label>
                     <textarea id="message" name="message" rows="4" required placeholder="Vaše dotazy..."></textarea>
 
-                    <button type="submit">Odeslat zprávu</button>
+                    <button type="submit" class="btn">Odeslat zprávu</button>
                 </form>
 
             </div>
         </section>
 
-    </div>
+    </main>
 
     <!-- Patička webu -->
     <footer>
