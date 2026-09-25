@@ -1,6 +1,6 @@
-# Web SPŠ Třebíč
+# Web pro SPŠ Třebíč
 
-Jednoduchá webová stránka Střední průmyslové školy Třebíč. Web představuje školu, její studijní obory a kontaktní údaje.
+Jednoduchá webová stránkapro Střední průmyslovou školu Třebíč. Web představuje školu, její studijní obory a kontaktní údaje.
 
 ## Autoři
 
